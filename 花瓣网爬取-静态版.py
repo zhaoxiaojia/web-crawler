@@ -21,7 +21,11 @@
                  ┃┫  ┃┫
                  ┗┛  ┗┛
 """
-
+'''
+静态爬取 花瓣网图片资源
+改脚本只能爬取一页 
+协程 并发 执行下载文件
+'''
 import requests
 import gevent
 from gevent import monkey
